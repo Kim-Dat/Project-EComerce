@@ -1,0 +1,38 @@
+:root {
+    --color-ffd333: #ffd333;
+    --color-47ad24: #47ad24;
+    --color-e52e2e: #e52e2e;
+    --color-ed464d: #ed464d;
+    --color-212529: #212529;
+    --color-828599: #858299;
+    --color-ced4da: #ced4da;
+    --box-shadow: 2px 3px 6px #6c6c6c;
+}
+.green {
+    color: var(--color-47ad24);
+    font-size: 16px;
+    font-family: "Roboto" !important;
+}
+.red {
+    color: var(--color-e52e2e);
+    font-size: 16px;
+    font-family: "Roboto" !important;
+}
+.form-control {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+.title{
+    font-size: 28px;
+    font-family: "Roboto" !important;
+}
+.sub-title{
+    font-size: 24px;
+    font-family: "Roboto" !important;
+}
+.desc{  
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-828599);
+    font-family: "Roboto" !important;
+}

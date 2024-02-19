@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+a,
+p,
+h5,
+h4 {
+    padding: 0;
+    margin: 0;
+}
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.demo-logo-vertical {
+    padding: 10px 10px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+}
+main {
+    overflow-y: scroll;
+}
+.box-shadow {
+    box-shadow: var(--box-shadow);
+}
+.ant-layout-sider {
+    flex: 0 0 250px !important;
+    max-width: 250px !important;
+    min-width: 250px !important;
+    width: 250px !important;
+    overflow-y: scroll !important;
+}
+.ant-layout-sider-collapsed {
+    flex: 0 0 90px !important;
+    max-width: 90px !important;
+    min-width: 90px !important;
+    width: 90px !important;
+}
+.ant-layout-sider-collapsed .demo-logo-vertical {
+    padding: 10px 10px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+}
+.ant-layout-header h5 {
+    line-height: 30px;
+}
+.ant-layout-header p {
+    line-height: 20px;
+}
+.ant-layout-header .notify-count {
+    position: absolute;
+    top: -8px;
+    right: 5px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    background-color: #005ee1;
+    color: #fff;
+    border: 1px solid var(--color-base-border);
+}
+.quill {
+    background-color: #fff;
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
+.ant-menu-title-content {
+    font-size: 1rem;
+    font-weight: 600;
+}
